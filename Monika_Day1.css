@@ -1,0 +1,37 @@
+#face{
+	text-align: center;
+	background-color: #ffffcc;
+}
+#gender{
+	text-align: center;
+	background-color: #ffffcc;
+}
+#indicators{
+	text-align: center;
+	background-color: #ffffcc;
+}
+#contact{
+	text-align: center;
+	background-color: #ffffcc;
+}
+
+#main{
+	border-style: ridge;
+
+	background-color: #f6eae7;
+	position:absolute;
+}
+.short{
+	width: 37px;
+	background-color: red;
+	color: white;
+}
+.tall{
+	width:37px;
+	background-color: purple;
+	color: white;
+}
+#age{
+	width:30px;
+	
+}

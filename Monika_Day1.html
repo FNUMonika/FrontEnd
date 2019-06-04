@@ -1,0 +1,82 @@
+<html>
+<head>
+	<title>
+		
+	</title>
+	<link rel="stylesheet" type="text/css" href="Monika_Day1.css">
+</head>
+<body>
+	<form id="main">
+
+	<div>
+		<h1>Please Enter Your Details For Our Dating Website!</h1>
+	</div>
+	
+	<div id="face">
+
+		<fieldset style= "border:6px solid yellow;">
+				<legend align="left">Your Face</legend>
+				Your Image: <input type= "file" text="Choose File"><br>
+				Image preview:
+		</fieldset>
+
+	
+	</div>
+	
+	<div id="gender">
+		<fieldset style= "border:6px solid yellow;">
+				<legend align="left">Your Gender Details</legend>
+				Name: <input type="text" placeholder="Your full name"><br>
+				Gender: <input type="radio" name="gender" id= "Male" value="Male">
+				<label for="Male">Male</label>
+				<input type="radio" name="gender" id= "Female" value="Female">
+				<label for="Female">Female</label><br>
+				Age:<input id="age" type="textbox" value=18><br>
+				Date of birth: <input type="textbox" placeholder="mm/dd/yy"><br>
+				Favourite color:<input type="color" id="black" name="blackcolor" value="black"><br>
+				Which Country:
+				<select>
+					<option></option>
+					<option>India</option>
+					<option>United States</option>
+				</select>
+		</fieldset>
+	
+	</div>
+
+	<div id="indicators">
+		<fieldset style= "border:6px solid yellow;">
+				<legend align="left">Your Indicators</legend>
+				Height:<input class="short" type="textbox" value="Short"> <input type="range"> <input class="tall"type="textbox" value="Tall"><br>
+				Salary:<input class="short" type="textbox" value="Poor"> <input type="range"> <input class="tall" type="textbox" value="Rich">
+		</fieldset>
+	
+	</div>
+
+	<div id="contact">
+		<fieldset style= "border:6px solid yellow;">
+				<legend align="left">Your Contact Information</legend>
+				Email:<input type="textbox"><br>
+				Mobile:<input type="textbox"><br>
+				Address:<textarea cols="25" rows="3"></textarea><br>
+				Method to contact you: <input type="checkbox" value="Email"id="email">
+				<label for ="email">Email
+				</label>
+				<input type="checkbox" value="Whatsapp" id="whatsapp">
+				<label for="whatsapp">Whatsapp</label>
+
+				<input type="checkbox" value="In-app chat" id="app">
+				<label for="app">In-app chat</label>
+		</fieldset>
+	
+	</div>
+	<div>
+		<input type="button" value="Submit">
+	</div>
+
+	</form>
+
+
+	
+</body>
+</html>
